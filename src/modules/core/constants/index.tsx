@@ -1,0 +1,1 @@
+export { adminSidebarMenu } from './adminSidebarMenu';
