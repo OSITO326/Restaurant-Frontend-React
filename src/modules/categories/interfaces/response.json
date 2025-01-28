@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": "679875a3b66ffe79561d16c3",
+      "name": "Bebidas 🍹",
+      "slug": "bebidas",
+      "description": "Las mejores bebidas de Bolivia",
+      "createdAt": "2025-01-28T06:13:55.340Z",
+      "updatedAt": "2025-01-28T06:13:55.340Z"
+    },
+    {
+      "id": "679875a3b66ffe79561d16c4",
+      "name": "Pizzas 🍕",
+      "slug": "prizzas",
+      "description": "Las mejores pizzas de Bolivia",
+      "createdAt": "2025-01-28T06:13:55.341Z",
+      "updatedAt": "2025-01-28T06:13:55.341Z"
+    },
+    {
+      "id": "679875a3b66ffe79561d16c5",
+      "name": "Sopas 🥣",
+      "slug": "sopas",
+      "description": "Las mejores sopas de Bolivia",
+      "createdAt": "2025-01-28T06:13:55.342Z",
+      "updatedAt": "2025-01-28T06:13:55.342Z"
+    },
+    {
+      "id": "679875a3b66ffe79561d16c6",
+      "name": "Postres 🍨",
+      "slug": "postres",
+      "description": "Los mejores postres de Bolivia",
+      "createdAt": "2025-01-28T06:13:55.344Z",
+      "updatedAt": "2025-01-28T06:13:55.344Z"
+    }
+  ]
+}
