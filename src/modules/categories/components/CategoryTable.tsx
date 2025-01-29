@@ -7,11 +7,12 @@ import {
   TableRow,
 } from '@heroui/table';
 import { useCategories } from '../hooks/useCategories';
+import { DeleteCategoryButton } from './DeleteCategoryButton';
 
 export const CategoryTable = () => {
-  const { categories, isLoading, isFetching } = useCategories();
+  const { categories, isLoading } = useCategories();
 
-  if (isLoading || isFetching) {
+  if (isLoading) {
     return (
       <section className='min-h-[80vh] flex items-center justify-center'>
         <p>Cargando...</p>
@@ -46,10 +47,7 @@ export const CategoryTable = () => {
                 <TableCell>2025-01-01</TableCell>
                 <TableCell>2025-02-02</TableCell>
                 <TableCell>
-                  <div className='flex gap-2'>
-                    <button className='btn btn-primary'>Editar</button>
-                    <button className='btn btn-danger'>Eliminar</button>
-                  </div>
+                  <DeleteCategoryButton categoryId={id} />
                 </TableCell>
               </TableRow>
             ))}
