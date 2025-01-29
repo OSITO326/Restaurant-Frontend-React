@@ -4,6 +4,7 @@ import { NotFound } from './modules/core/components/NotFound';
 import { AuthLayout } from './modules/core/layout/AuthLayout';
 import { CategoriesPage } from './pages/admin/categories/CategoriesPage';
 import { AdminLayout } from './modules/core/layout/AdminLayout';
+import { ProductsPage } from './pages/admin/products/ProductsPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* DASHBOARD */}
       <Route path='/admin' element={<AdminLayout />}>
         <Route path='categories' element={<CategoriesPage />} />
+        <Route path='products' element={<ProductsPage />} />
       </Route>
 
       {/* NOT FOUND */}
