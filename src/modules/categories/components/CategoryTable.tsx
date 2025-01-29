@@ -6,26 +6,12 @@ import {
   TableHeader,
   TableRow,
 } from '@heroui/table';
-import categoriesServices from '../services/actions';
-import { useEffect, useState } from 'react';
-import { Category } from '../interfaces/category';
+import { useCategories } from '../hooks/useCategories';
 
 export const CategoryTable = () => {
-  const [isLoading, setIsLoading] = useState(false);
-  const [categories, setCategories] = useState<Category[]>([]);
+  const { categories, isLoading, isFetching } = useCategories();
 
-  const getCategories = async () => {
-    setIsLoading(true);
-    const data = await categoriesServices.getAllCategories();
-    setIsLoading(false);
-    setCategories(data);
-  };
-
-  useEffect(() => {
-    getCategories();
-  }, []);
-
-  if (isLoading) {
+  if (isLoading || isFetching) {
     return (
       <section className='min-h-[80vh] flex items-center justify-center'>
         <p>Cargando...</p>
@@ -46,12 +32,14 @@ export const CategoryTable = () => {
             <TableColumn>Acciones</TableColumn>
           </TableHeader>
           <TableBody emptyContent={<p>No se encontraron categorias</p>}>
-            {categories.map(({ id, name, description }) => (
+            {categories!.map(({ id, name, description }) => (
               <TableRow key={id}>
                 <TableCell>
-                  <p className='font-semibold'>{id}</p>
+                  <p>{id}</p>
                 </TableCell>
-                <TableCell>{name}</TableCell>
+                <TableCell>
+                  <p>{name}</p>
+                </TableCell>
                 <TableCell width={300}>
                   <p className='line-clamp-2'>{description}</p>
                 </TableCell>
