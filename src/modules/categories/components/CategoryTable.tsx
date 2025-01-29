@@ -8,6 +8,7 @@ import {
 } from '@heroui/table';
 import { useCategories } from '../hooks/useCategories';
 import { DeleteCategoryButton } from './DeleteCategoryButton';
+import { EditCategoryModal } from './EditCategoryModal';
 
 export const CategoryTable = () => {
   const { categories, isLoading } = useCategories();
@@ -48,6 +49,7 @@ export const CategoryTable = () => {
                 <TableCell>2025-02-02</TableCell>
                 <TableCell>
                   <DeleteCategoryButton categoryId={id} />
+                  <EditCategoryModal category={{ id, name, description }} />
                 </TableCell>
               </TableRow>
             ))}

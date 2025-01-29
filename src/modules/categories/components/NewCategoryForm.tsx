@@ -11,7 +11,7 @@ export const NewCategoryForm = () => {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
+    // watch,
     reset,
   } = useForm<Category>({ resolver: zodResolver(CategorySchema) });
   // console.log(errors);
