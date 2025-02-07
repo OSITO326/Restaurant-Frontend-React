@@ -12,7 +12,7 @@ export const SideBar = () => {
       </div>
       <ul className='sidemenu--items'>
         {adminSidebarMenu.map((option) => (
-          <li key={option.path}>
+          <li key={option.path} className='w-full'>
             <Link
               to={option.path}
               className={`sidemenu__link ${pathname == option.path ? 'sidemenu__link--active' : ''}`}
