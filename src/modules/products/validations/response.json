@@ -1,0 +1,179 @@
+{
+  "products": [
+    {
+      "id": "679875a3b66ffe79561d16d1",
+      "name": "Helado de vainilla",
+      "slug": "helado-vainilla",
+      "description": "Helado de vainilla con oreo",
+      "stock": 9,
+      "price": 5,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/5060281/pexels-photo-5060281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c6",
+      "createdAt": "2025-01-28T06:13:55.344Z",
+      "updatedAt": "2025-01-28T06:19:43.190Z",
+      "category": {
+        "name": "Postres 🍨",
+        "slug": "postres"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16d0",
+      "name": "Helado de chocolate",
+      "slug": "helado-chocolate",
+      "description": "Helado de chocolate con oreo",
+      "stock": 10,
+      "price": 5,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/4314231/pexels-photo-4314231.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c6",
+      "createdAt": "2025-01-28T06:13:55.344Z",
+      "updatedAt": "2025-01-28T06:13:55.344Z",
+      "category": {
+        "name": "Postres 🍨",
+        "slug": "postres"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16d2",
+      "name": "Helado de fresa",
+      "slug": "helado-fresa",
+      "description": "Helado de fresa con oreo",
+      "stock": 10,
+      "price": 5,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/2161643/pexels-photo-2161643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c6",
+      "createdAt": "2025-01-28T06:13:55.344Z",
+      "updatedAt": "2025-01-28T06:13:55.344Z",
+      "category": {
+        "name": "Postres 🍨",
+        "slug": "postres"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16ca",
+      "name": "Ramen",
+      "slug": "ramen",
+      "description": "Ramen con pollo, cebolla, pimenton y tomate",
+      "stock": 10,
+      "price": 10,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/2664216/pexels-photo-2664216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c5",
+      "createdAt": "2025-01-28T06:13:55.342Z",
+      "updatedAt": "2025-01-28T06:13:55.342Z",
+      "category": {
+        "name": "Sopas 🥣",
+        "slug": "sopas"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16cb",
+      "name": "Sopa de pollo",
+      "slug": "sopa-pollo",
+      "description": "Sopa de pollo con cebolla, pimenton y tomate",
+      "stock": 10,
+      "price": 10,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/2532442/pexels-photo-2532442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c5",
+      "createdAt": "2025-01-28T06:13:55.342Z",
+      "updatedAt": "2025-01-28T06:13:55.342Z",
+      "category": {
+        "name": "Sopas 🥣",
+        "slug": "sopas"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16cc",
+      "name": "Sopa de verduras",
+      "slug": "sopa-verduras",
+      "description": "Sopa de verduras con cebolla, pimenton y tomate",
+      "stock": 10,
+      "price": 10,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/24017888/pexels-photo-24017888/free-photo-of-tomates-bol-tazon-cuenco.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c5",
+      "createdAt": "2025-01-28T06:13:55.342Z",
+      "updatedAt": "2025-01-28T06:13:55.342Z",
+      "category": {
+        "name": "Sopas 🥣",
+        "slug": "sopas"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16cf",
+      "name": "Pizza de jamon",
+      "slug": "pizza-jamon",
+      "description": "Pizza de jamon con tomate, mozzarella y jamon",
+      "stock": 10,
+      "price": 12,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/28996257/pexels-photo-28996257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c4",
+      "createdAt": "2025-01-28T06:13:55.341Z",
+      "updatedAt": "2025-01-28T06:13:55.341Z",
+      "category": {
+        "name": "Pizzas 🍕",
+        "slug": "prizzas"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16ce",
+      "name": "Pizza de peperoni",
+      "slug": "pizza-peperoni",
+      "description": "Pizza de peperoni con tomate, mozzarella y peperoni",
+      "stock": 10,
+      "price": 12,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/12407828/pexels-photo-12407828.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c4",
+      "createdAt": "2025-01-28T06:13:55.341Z",
+      "updatedAt": "2025-01-28T06:13:55.341Z",
+      "category": {
+        "name": "Pizzas 🍕",
+        "slug": "prizzas"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16cd",
+      "name": "Pizza napolitana",
+      "slug": "pizza-napolitana",
+      "description": "Pizza napolitana con tomate, mozzarella y orégano",
+      "stock": 10,
+      "price": 10,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/13814644/pexels-photo-13814644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c4",
+      "createdAt": "2025-01-28T06:13:55.341Z",
+      "updatedAt": "2025-01-28T06:13:55.341Z",
+      "category": {
+        "name": "Pizzas 🍕",
+        "slug": "prizzas"
+      }
+    },
+    {
+      "id": "679875a3b66ffe79561d16c7",
+      "name": "Coca cola",
+      "slug": "coca-cola",
+      "description": "Coca cola 1.5L",
+      "stock": 10,
+      "price": 2,
+      "enable": true,
+      "image": "https://images.pexels.com/photos/3200651/pexels-photo-3200651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoryId": "679875a3b66ffe79561d16c3",
+      "createdAt": "2025-01-28T06:13:55.340Z",
+      "updatedAt": "2025-01-28T06:13:55.340Z",
+      "category": {
+        "name": "Bebidas 🍹",
+        "slug": "bebidas"
+      }
+    }
+  ],
+  "meta": {
+    "total": 12,
+    "page": 1,
+    "lastPage": 2
+  }
+}
