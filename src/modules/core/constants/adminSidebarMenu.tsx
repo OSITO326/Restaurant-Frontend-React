@@ -7,14 +7,14 @@ import {
 
 export const adminSidebarMenu = [
   {
+    name: 'POS',
+    path: '/admin/pos',
+    icon: <KitchenUtensilsIcon size={22} />,
+  },
+  {
     name: 'Categorias',
     path: '/admin/categories',
     icon: <Layers01Icon size={22} />,
-  },
-  {
-    name: 'Productos',
-    path: '/admin/products',
-    icon: <KitchenUtensilsIcon size={22} />,
   },
   {
     name: 'Pedidos',
