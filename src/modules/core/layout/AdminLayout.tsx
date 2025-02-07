@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router';
 import { SideBar } from '../components/SideBar';
+import { SideCart } from '../../cart/components/SideCart';
 
 export const AdminLayout = () => {
   return (
@@ -12,6 +13,7 @@ export const AdminLayout = () => {
         <main className='w-full'>
           <Outlet />
         </main>
+        <SideCart />
       </div>
     </div>
   );
